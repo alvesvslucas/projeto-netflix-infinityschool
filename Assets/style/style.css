@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/47c2bc92-5a2a-4f33-8f91-4314e9e62ef1/web/BR-pt-20240916-TRIFECTA-perspective_c2bebe15-295b-4009-9a1c-893d9f501956_large.jpg")
+    no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 60px;
+  border-radius: 8px;
+  width: 360px;
+  color: #fff;
+}
+
+header .logo {
+  position: absolute;
+  box-sizing: border-box;
+  top: 20px;
+  left: 20px;
+  width: 140px;
+}
+
+.login-form {
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  background: #333;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #8c8c8c;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.input-box input:focus + label,
+.input-box input:not(:placeholder-shown) + label {
+  top: -10px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+
+
+.login-btn:hover {
+  background-color: #f6121d;
+}
+
+.help-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.help-section .remember-me label {
+  color: #8c8c8c;
+}
+
+.help-link {
+  color: #8c8c8c;
+  text-decoration: none;
+}
+
+.help-link:hover {
+  text-decoration: underline;
+}
+
+.signup-now p {
+  color: #8c8c8c;
+}
+
+.signup-now a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.signup-now a:hover {
+  text-decoration: underline;
+}
+
+.recaptcha {
+  margin-top: 20px;
+}
+
+.recaptcha p {
+  font-size: 13px;
+  color: #8c8c8c;
+}
+
+.recaptcha a {
+  color: #0071eb;
+  text-decoration: none;
+}
+
+.recaptcha a:hover {
+  text-decoration: underline;
+}
